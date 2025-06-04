@@ -28,9 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <ConvexClerkProvider>
-      <html lang="en">
+      <html lang ="en" suppressHydrationWarning >
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <Navbar />
+          <Navbar  />
 
           {/* GRID BACKGROUND */}
           <div className="fixed inset-0 -z-1">
