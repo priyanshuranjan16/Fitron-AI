@@ -1,7 +1,7 @@
 export const USER_PROGRAMS = [
   {
     id: 1,
-    first_name: "Sarah",
+    first_name: "Alan",
     profilePic: "https://randomuser.me/api/portraits/men/74.jpg",
     fitness_goal: "Weight Loss",
     height: "5'6\"",
@@ -78,7 +78,7 @@ export const USER_PROGRAMS = [
   },
   {
     id: 3,
-    first_name: "Elena",
+    first_name: "Burak",
     profilePic: "https://randomuser.me/api/portraits/men/76.jpg",
     fitness_goal: "General Fitness",
     height: "5'4\"",
@@ -100,7 +100,7 @@ export const USER_PROGRAMS = [
         "This program focuses on functional movement patterns that improve everyday performance while being gentle on the knees. Emphasis is on core strength, mobility, and cardiovascular health.",
     },
     diet_plan: {
-      title: "Balanced Vegetarian Nutrition",
+      title: "Balanced Vegetarian Nutrition and Diet",
       daily_calories: "1,800 calories",
       macros: { protein: "25%", carbs: "50%", fats: "25%" },
       meal_examples: [

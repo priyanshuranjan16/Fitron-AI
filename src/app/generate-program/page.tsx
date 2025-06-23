@@ -132,7 +132,7 @@ const GenerateProgramPage = () => {
           ? `${user.firstName} ${user.lastName || ""}`.trim()
           : "There";
 
-        await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!, {
+        await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID, {
           variableValues: {
             full_name: fullName,
             user_id: user?.id,
@@ -205,7 +205,7 @@ const GenerateProgramPage = () => {
                 </div>
               </div>
 
-              <h2 className="text-xl font-bold text-foreground">Fitron AI</h2>
+              <h2 className="text-xl font-bold text-foreground">FITRON AI</h2>
               <p className="text-sm text-muted-foreground mt-1">Fitness & Diet Coach</p>
 
               {/* SPEAKING INDICATOR */}
@@ -261,8 +261,8 @@ const GenerateProgramPage = () => {
           </Card>
         </div>
 
-        {/* MESSAGE CONTAINER  */}
-        {messages.length > 0 && ( 
+        {/* MESSAGE COINTER  */}
+        {messages.length > 0 && (
           <div
             ref={messageContainerRef}
             className="w-full bg-card/90 backdrop-blur-sm border border-border rounded-xl p-4 mb-8 h-64 overflow-y-auto transition-all duration-300 scroll-smooth"

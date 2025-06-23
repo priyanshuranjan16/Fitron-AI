@@ -133,6 +133,7 @@ const UserPrograms = () => {
                       </p>
                     </div>
                   </div>
+                  
 
                   <div className="flex items-start gap-3">
                     <div className="p-2 rounded-md bg-secondary/10 text-secondary mt-0.5">
@@ -160,6 +161,7 @@ const UserPrograms = () => {
                         Protection systems enabled
                       </p>
                     </div>
+                    
                   </div>
                 </div>
 
