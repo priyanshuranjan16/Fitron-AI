@@ -1,3 +1,8 @@
+// HARD CODED DATA
+
+
+
+
 export const USER_PROGRAMS = [
   {
     id: 1,
