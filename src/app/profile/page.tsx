@@ -1,4 +1,5 @@
 "use client";
+// profile page showing user's fitness plans
 
 import { useUser } from "@clerk/nextjs";
 import { useQuery } from "convex/react";
