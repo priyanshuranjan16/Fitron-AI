@@ -171,7 +171,7 @@ const ProfilePage = () => {
                         DAILY CALORIE TARGET
                       </span>
                       <div className="font-mono text-xl text-primary">
-                        {currentPlan.dietPlan.dailyCalories} KCAL
+                        {currentPlan.dietPlan.dailyCalories} CAL
                       </div>
                     </div>
 
