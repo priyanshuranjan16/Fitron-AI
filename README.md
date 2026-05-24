@@ -1,25 +1,5 @@
 # ⚡ FITRON.AI
 
-<p align="center">
-  <img src="public/fitron_bg.jpg" alt="FITRON.AI Logo" width="80" height="80" />
-</p>
-
-<h3 align="center">FITRON.AI</h3>
-
-<p align="center">
-  <strong>A modern, voice-activated fitness AI platform to get jacked for free.</strong>
-</p>
-
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-project-architecture">Architecture</a> •
-  <a href="#%EF%B8%8F-getting-started">Getting Started</a> •
-  <a href="#%EF%B8%8F-environment-variables">Configuration</a> •
-  <a href="#-convex-backend">Convex Backend</a>
-</p>
-
----
 
 ## 🚀 Overview
 
