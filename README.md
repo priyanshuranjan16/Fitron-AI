@@ -1,7 +1,7 @@
 # ⚡ FITRON.AI
 
 <p align="center">
-  <img src="public/favicon.ico" alt="FITRON.AI Logo" width="80" height="80" />
+  <img src="public/fitron_bg.jpg" alt="FITRON.AI Logo" width="80" height="80" />
 </p>
 
 <h3 align="center">FITRON.AI</h3>
