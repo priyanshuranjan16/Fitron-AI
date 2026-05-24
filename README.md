@@ -142,7 +142,7 @@ FITRON.AI runs high-performance backend actions inside Convex. The key integrati
 ### 1. Clerk User Webhooks (`/clerk-webhook`)
 Whenever a user signs up or updates their profile via Clerk, Clerk emits a webhook to Convex. 
 - Convex validates the authenticity of the payload using **Svix** and the `CLERK_WEBHOOK_SECRET` environment variable.
-- Upon validation, Convex triggers `api.users.syncUser` or `api.users.updateUser` to sync details (`name`, `email`, `image`, `clerkId`) directly into the real-time database.
+- Upon validation, Convex triggers `api.users.syncUser` or `api.users.updateUser` to sync details (`name`, `email`, `image`, `clerkId`) directly into the real-time database
 
 ### 2. Voice-Activated Generation (`/vapi/generate-program`)
 This endpoint is queried during/after the Vapi voice interaction session.
