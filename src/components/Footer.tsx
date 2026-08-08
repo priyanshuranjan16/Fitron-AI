@@ -20,7 +20,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Fitron.AI - All rights reserved
+              © {new Date().getFullYear()} Fitron.AI - All rights reserved...
             </p>
           </div>
 
